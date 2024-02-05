@@ -90,6 +90,11 @@ h4{
     font-size: 30px;
 }
 
+h5{
+    font-size: 18px;
+    padding-top: 14px;
+}
+
 header p{
     font-size: 20px;
     padding-top: 20px;
@@ -201,6 +206,18 @@ a > img{
     height: 18px;
 }
 
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+li a, a{
+    color: white;
+}
+
 /*-------------------
     HEADER
 -------------------*/
@@ -211,16 +228,12 @@ a > img{
 
 .main-nav ul {
     display: flex;
-    list-style: none;
     justify-content: center;
 }
 .main-nav li {
     padding: 0 30px;
 }
-.main-nav li a {
-    text-decoration: none;
-    color: white;
-}
+
 
 .header-top .login {
     text-align: right;
@@ -261,7 +274,7 @@ div.paragraph{
     width: 100%;
 }
 
-h4{
+main h4{
     position: relative;
     top: -30px;
     margin-bottom: 10px;
@@ -272,17 +285,49 @@ h4{
 /*-------------------
     FOOTER
 -------------------*/
+footer{
+    background-color: #23272A;
+    color: white;
+}
+
+footer .col-30{
+    padding-right: 60px ;
+}
+
+footer h4, footer h5{
+    color: #7891E6;
+}
+
+footer h4{
+    padding-bottom: 20px;
+}
+
+footer li{
+    line-height: 30px;
+}
+
+.social i{
+    margin-top: 20px;
+    padding-right: 16px;
+}
+
 .footer-top {
     padding-top: 10px;
     padding-bottom: 40px;
 }
 
+.lingua img{
+    width: 14px;
+    height: 10px;
+}
+
 footer .container:first-child {
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #7891E6;
+    padding-top: 40px;
 }
 
 .footer-bottom {
-    margin-top: 30px;
-    padding: 20px 0;
+    padding-top: 30px;
+    padding-bottom: 60px;
     justify-content: space-between;
 }
