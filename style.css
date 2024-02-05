@@ -67,6 +67,20 @@
     background-color: #ffb6c1;
     padding: 10px;
 }
+
+/*-------------------
+    TYPOGRAPHY
+-------------------*/
+h1{
+    padding-top: 60px;
+    font-size: 60px;
+}
+header p{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 28px;
+}
 /*-------------------
     GRID LAYOUT
 -------------------*/
@@ -117,19 +131,54 @@
 .col-grow {
     flex-grow: 1;
 }
+.btn{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 20px;
+
+}
+.btn-white{
+    color: #000;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+.btn-black{
+    color: white;
+    background-color: #000;
+    border: 1px solid black;
+
+}
 
 /*-------------------
     GENERAL
 -------------------*/
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
 .bg-gray {
     background-color: #d3d3d3;
+}
+
+a{
+    cursor: pointer;
+}
+
+a > img{
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
 }
 
 /*-------------------
     HEADER
 -------------------*/
 .header-top {
-    padding: 16px 0;
+    padding: 22px 0;
+    background-color: #3160E0;
 }
 
 .main-nav ul {
@@ -138,10 +187,11 @@
     justify-content: center;
 }
 .main-nav li {
-    padding: 0 4px;
+    padding: 0 30px;
 }
 .main-nav li a {
     text-decoration: none;
+    color: white;
 }
 
 .header-top .login {
@@ -149,13 +199,18 @@
 }
 
 .hero-container  {
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    min-height: 560px;
     padding: 50px 0;
     display: flex;
     justify-content: center;
 }
 
 .hero {
-    max-width: 920px;
+    text-align: center;
+    color: white;
+    max-width: 810px;
     width: 100%;
 }
 
