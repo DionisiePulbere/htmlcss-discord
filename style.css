@@ -177,7 +177,7 @@ p{
 .btn-white{
     color: #000;
     background-color: white;
-    border: 1px solid blue;
+    border: 1px solid #7282B7;
 }
 
 .btn-black{
@@ -187,7 +187,7 @@ p{
 
 .btn-blu{
     background-color: #8EA1E1;
-    border: 1px solid blue;
+    border: 1px solid #7282B7;
 }
 
 .img-right{
@@ -200,6 +200,10 @@ p{
 -------------------*/
 body{
     font-family: 'Cabin', sans-serif;
+}
+
+.col-70 img{
+    max-width: 100%;
 }
 
 a{
